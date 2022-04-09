@@ -1,0 +1,227 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none; /* Убираем подчёркивание */
+}
+
+#top,
+#problem,
+#PiedPiperCoin,
+#the_team {
+    margin-top: -84px;
+    border-top: 84px solid transparent;
+    background-clip: padding-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.p_class_32px  {
+    font-size: 32px;
+}
+
+h2 {
+    padding-top: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #007765;
+}
+
+.container {
+    max-width: 1219px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+
+    /* ====== HEADER ============ */
+
+
+.header__main{
+    width: 100%;
+    background-color: #007765;
+    height:84px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 21;
+   }
+
+.navigation__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_menu {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.menu_links {
+    color: #FFFFFF;
+}
+
+    /* ====== JUMBOTRON ============ */
+
+.jumbotron {
+    background-image: url(../src/background_JUMBOTRON.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 84px;
+    padding-top: 244px;
+    padding-bottom: 160px;
+}
+
+.main__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+    /* ====== PROBLEM ============ */
+.problem {
+    background: #EEEEEE;
+}
+
+
+.problem__title {
+    margin: 0;
+
+
+}
+
+.text_problem {
+    margin-top: 0;
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: black;
+}
+
+
+    /* ====== HERO ============ */
+.hero {
+    background-image: url(../src/hero_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.hero__title {
+    padding-top: 128px;
+    padding-bottom: 127px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+    /* ====== PPC ============ */
+.ppc {
+    background-color: #FFFFFF;
+}
+
+.ppc_top {
+    display: flex;
+    width: 100%;
+    margin-bottom: 60px;
+    margin-top: 16px;
+}
+
+.ppc_logo {
+    width: 115px;
+    height: 115px;
+    margin-right: 48px;
+}
+
+.ppc_top_text {
+    margin: 0;
+}
+
+    /* ====== THE TEAM ============ */
+.team {
+    background-color: #EEEEEE;
+}
+
+.team_cards {
+    padding-top: 15px;
+    padding-bottom: 41px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.team_member_card {
+    padding-top: 41px;
+    padding-bottom: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.team_member_name {
+    margin-top: 12px;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #007765;
+}
+
+.team_member_description {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+    /* ====== FOOTER ============ */
+
+.footer {
+    background-color: #333333;
+
+}
+
+.footer_text {
+    padding: 0 240px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 64px;
+}
