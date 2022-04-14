@@ -90,7 +90,7 @@ h2 {
 }
 
 .menu_links a{
-    transition: 0.5s; /* Время эффекта */
+    transition: 0.2s; /* Время эффекта */
     text-align: center;
     text-decoration: none; /* Убираем подчёркивание */
     color: #FFFFFF;
@@ -101,11 +101,11 @@ h2 {
 }
 
 .menu_links {
-    transition: 1s; /* Время эффекта */
+    transition: 0.2s; /* Время эффекта */
 }
 
 .menu_links:hover {
-    transform: scale(1.2); /* Увеличиваем масштаб */
+    transform: scale(1.1); /* Увеличиваем масштаб */
 }
 
     /* ====== JUMBOTRON ============ */
@@ -189,9 +189,11 @@ h2 {
     margin-right: 48px;
 }
 
-.ppc_logo:hover {
+/* .ppc_logo:hover {
     transform: scale(2);
-}
+} 
+
+УВЕЛИЧЕНИЕ ЛОГОТИПА РУДИМЕНТ*/ 
 
 .ppc_top_text {
     margin: 0;
