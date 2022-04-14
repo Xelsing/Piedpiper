@@ -7,6 +7,8 @@ body {
     box-sizing: border-box;
 }
 
+
+
 a {
     text-decoration: none; /* Убираем подчёркивание */
 }
@@ -48,11 +50,14 @@ h2 {
     padding-right: 55px;
 }
 
+.navigation__container {
+    height: 84px;
+}
 
     /* ====== HEADER ============ */
 
 
-.header__main{
+.header_main{
     width: 100%;
     background-color: #007765;
     height:84px;
@@ -77,10 +82,30 @@ h2 {
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-    text-align: center;
+    display: flex;
 }
-.menu_links {
+
+.palochka {
+    padding: 0 15px;
+}
+
+.menu_links a{
+    transition: 0.5s; /* Время эффекта */
+    text-align: center;
+    text-decoration: none; /* Убираем подчёркивание */
     color: #FFFFFF;
+}
+
+.menu_links a:hover {
+    color: rgb(168, 168, 168);
+}
+
+.menu_links {
+    transition: 1s; /* Время эффекта */
+}
+
+.menu_links:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
 }
 
     /* ====== JUMBOTRON ============ */
@@ -162,6 +187,10 @@ h2 {
     width: 115px;
     height: 115px;
     margin-right: 48px;
+}
+
+.ppc_logo:hover {
+    transform: scale(2);
 }
 
 .ppc_top_text {
